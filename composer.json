@@ -1,0 +1,13 @@
+{
+	"name": "inkl/m2-module-widget-ext-name",
+	"description": "Add widget_name parameter in CMS Editor",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+			"src/registration.php"
+		],
+		"psr-4": {
+			"Inkl\\WidgetExtName\\": "src"
+		}
+	}
+}
