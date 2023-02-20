@@ -168,7 +168,7 @@ define([
 
                         if (config.types[attributes.type]) {
                             imageHtml += config.types[attributes.type];
-                            if (attributes.hasOwnProperty('widget_name')) {
+                            if (attributes.hasOwnProperty('widget_name') && attributes.widget_name !== '') {
                                 imageHtml += ' (' + attributes.widget_name + ')';
                             }
                         }
